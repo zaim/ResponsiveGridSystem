@@ -649,15 +649,6 @@ background-color : #ccc; }
 			#smallprint a:hover { color: #999; text-decoration: underline; }
 
 
-/*  SECTIONS  ============================================================================= */
-
-.section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
-}
-
-	
 /*  CODE  ============================================================================= */
 
 pre.code {
@@ -796,33 +787,6 @@ strong.code {
 }
 .button:visited { 
 	color : #fff;
-}
-
-
-
-/*  GLOBAL OBJECTS ============================================================================= */
-
-.breaker { clear: both; }
-
-.group:before,
-.group:after {
-    content:"";
-    display:table;
-}
-.group:after {
-    clear:both;
-}
-.group {
-    zoom:1; /* For IE 6/7 (trigger hasLayout) */
-}
-
-
-.floatleft {
-    float: left;
-}
-
-.floatright {
-    float: right;
 }
 
 
